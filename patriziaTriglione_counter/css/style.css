@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: white;
+    display: flex;
+    height: 100vh;
+    place-items: center;
+    justify-content: center;
+  }
+
+  /*container with add button*/
+  .containerAdd {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    height: 50%;
+    background-color:rgb(255, 0, 0);
+    padding: 5%;
+    border: solid 1px black;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    box-shadow: 0 15px 25px  black;
+  }
+
+ 
+/* container with title, output, reset anc containerButton*/
+  .container {
+    width: 35%;
+    height: 50%;
+    background-color:rgb(68, 68, 68);
+    padding: 3%;
+    border: solid 1px black;
+    border-radius: 5%;
+    box-shadow: 0 15px 25px  black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+ .title {
+    text-shadow: 0 10px 10px rgb(0, 0, 0);
+    font-size: 3em;
+    color:rgb(82, 76, 76);
+    margin-top:-2%;
+  }
+  .output {
+    background-color: rgb(0, 0, 0);
+    padding: 30px 5px;
+    font-size: 3em;
+    text-align:center;
+    border-radius: 2%;
+    margin: 20px auto;
+    color:white;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /*container with light and light button*/
+  .lightOff {
+    background-color: rgb(0, 0, 0);
+    padding: 5%;
+    border-radius: 100%;
+    margin-left:20%;
+    margin-right:5%;
+    box-shadow: 0 5px 10px black;
+  }
+
+  .lightOn {
+    background-color: red; 
+    padding: 5%;
+    border-radius: 100%;
+    margin-left:20%;
+    margin-right:5%;
+    box-shadow: 0 5px 10px rgb(255, 92, 92);
+  }
+
+  .lightButton {
+    font-size: 1em;
+  }
+
+  .containerButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+/*container with remove button*/
+  .containerRemove {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    height: 50%;
+    background-color:rgb(4, 0, 255);
+    padding: 5%;
+    border: solid 1px black;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    box-shadow: 0 15px 25px  black;
+    
+  }  
+  
+  /*all buttons*/
+  button {
+    font-size: 3em;
+    padding: 20px;
+    border-radius: 100%;
+    box-shadow: 0 10px 5px black;
+    cursor: pointer;
+    background-color: rgb(122, 122, 122);
+    color:rgb(0, 0, 0);
+  } 
+  
+  button:hover {
+    background-color: rgb(173, 173, 173);
+  }
+
+  .remove {
+    padding: 20px 28px;
+  }
+
+  .reset {
+    font-size: 1em;
+    padding:28px;
+  }
+
+  /**/
+  @media only screen and (max-width:841px) {
+    .containerAdd {
+      padding:12%;
+    }
+    .containerRemove {
+      padding:12%;
+    }
+    .container {
+      width: 40%;
+    }
+    button {
+      padding:10px;
+    }
+    .remove {
+      padding: 10px 18px;
+    }
+    .reset {
+      padding:18px;
+      margin-right:-16%;
+    }
+
+  }
+    
