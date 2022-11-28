@@ -3,8 +3,6 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0;
     margin: 0;
-    outline: none;
-    user-select:none;
   }
   
   body {
@@ -123,6 +121,9 @@
     cursor: pointer;
     background-color: rgb(122, 122, 122);
     color:rgb(0, 0, 0);
+    outline: none;
+    user-select:none;
+    border:none;
   } 
   
   button:hover {
@@ -184,12 +185,12 @@
     }
     .lightOn {
       margin-top: 20%;
-      margin-bottom: 20%;
+      margin-bottom: 10%;
       margin-right:10%;
     }
     .lightOff {
       margin-top: 20%;
-      margin-bottom: 5%;
+      margin-bottom: 10%;
       margin-right:10%;
     }
     .lightButton {
