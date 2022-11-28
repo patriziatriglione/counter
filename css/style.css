@@ -3,6 +3,8 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0;
     margin: 0;
+    outline: none;
+    user-select:none;
   }
   
   body {
@@ -188,7 +190,7 @@
     .lightOff {
       margin-top: 20%;
       margin-bottom: 5%;
-      margin-right:15%;
+      margin-right:10%;
     }
     .lightButton {
       margin: 5% auto;
