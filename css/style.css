@@ -202,5 +202,8 @@
     .container, .containerAdd, .containerRemove {
       height: 85%;
     }
+    .output {
+      margin: 57px auto;
+    }
   }
     
