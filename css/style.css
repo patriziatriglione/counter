@@ -122,7 +122,7 @@
     cursor: pointer;
     background-color: rgb(122, 122, 122);
     color:rgb(0, 0, 0);
-   text-decoration: none;
+    -webkit-tap-highlight-color:transparent;
   } 
   
   button:hover {
